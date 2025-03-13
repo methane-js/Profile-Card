@@ -31,8 +31,8 @@ It is the view from a mobile of this project
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/profile-card-using-css-flex-WgpTroApkc)
+- Live Site URL: [Vercel](https://profile-card-wheat-ten.vercel.app)
 
 ## My process
 
@@ -44,6 +44,5 @@ It is the view from a mobile of this project
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@methane-js](https://www.frontendmentor.io/profile/methane-js)
+- Instagram - [@methane.py](https://www.instagram.com/methane.py/)
