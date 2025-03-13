@@ -1,0 +1,116 @@
+:root{
+    --DarkCyan: hsl(185, 75%, 39%);
+    --VeryDarkBlue: hsl(229, 23%, 23%);
+    --DarkGrayishBlue: hsl(227, 10%, 46%);
+    --DarkGray: hsl(0, 0%, 59%);
+    --BoldFont: 700;
+    --LightFont: 400;
+    --FontSize: 18px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+html,body{
+    height: 100%;
+}
+body{
+    background-color: var(--DarkCyan);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#top, #bottom{
+    position: absolute;
+}
+#top{
+    top:-50%;
+    left:-7%;
+}
+#bottom{
+    top:50%;
+    left:57%;
+}
+main{
+    width:500px;
+    background-color: white;
+    border-radius: 20px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-image: url(bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+main #Card{
+    width:100%;
+}
+main #Victor{
+    padding:5px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    width:130px;
+}
+.imgContainer{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:130px;
+}
+main .author{
+    display: flex;
+    margin-top:20px;
+    align-items: center;
+    text-align: center;
+}
+.authorArea{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.author p{
+    margin-left:20px;
+    font-size: 30px;
+    font-weight: var(--LightFont);
+}
+.Country{
+    text-align: center;
+    margin-top:15px;
+    font-size: var(--FontSize);
+    color:var(--DarkGray);
+}
+.stats{
+    display:flex;
+    width:100%;
+    height: auto;
+    margin-top:40px;
+    padding:30px 20px;
+    border-top:1px solid var(--DarkGray);
+    justify-content: space-around;
+    text-align: center;
+    padding-left: 10px;
+}
+.stats h1{
+    font-weight: var(--BoldFont);
+}
+.stats p{
+    font-weight: var(--LightFont);
+    letter-spacing: 5px;
+}
+@media (max-width:600px){
+    main{
+        width:360px;
+    }
+    main #Victor{
+        width:100px;
+    }
+    .imgContainer{
+        margin-top: 95px;
+    }
+}
